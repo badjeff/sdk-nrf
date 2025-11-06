@@ -2531,3 +2531,4 @@ int esb_reuse_pid(uint8_t pipe)
 
 	return 0;
 }
+void *__ptr__radio_dynamic_irq_handler = &radio_dynamic_irq_handler;
